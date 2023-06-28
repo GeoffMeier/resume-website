@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+.navbar {
+  position: fixed; /* Fixed position to keep it in place */
+  left: 0; /* Position on the left side */
+  top: 0; /* Position at the top */
+  width: 300px; /* Adjust the width as needed */
+  height: 100vh; /* Full height of the viewport */
+  background-color: rgba(0, 72, 255, 0.951); /* Background color of the navbar */
+  color: #fff; /* Text color */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
 }
+.name {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: auto;
+  width: 50%;
+  
+  padding: 10px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin-top: 20%;
+  
+  
+}
+.ul{
+   /* Fixed position to keep it in place */
+   /* Position on the left side */
+   /* Position at the top */
+  /* Full height of the viewport */
+   /* Background color of the navbar */
+  /* Text color */
+  list-style-type: none;
+font-size: large;
+  
+}
+.objective{
+  font-size: medium;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+.name1 {
+  
+ align-items: center;
+ text-align: center;
+  font-size: xx-large;
+  font-family: verdana;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  
+  
+}
+.navbar h2{
+  justify-content: center;
+  text-align: center;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar ul {
+  text-align: center;
+  list-style-type: none; /* Remove the default list styles */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  font-size:x-large;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.navbar li {
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.navbar a {
+  color: #fff; /* Link text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar a:hover {
+  color: gr; /* Link text color on hover */
 }
