@@ -15,13 +15,44 @@
 
   margin: auto;
   width: 50%;
-  
-  padding: 10px;
-  justify-content: center;
-  text-align: center;
+
+  /* padding: 10px; */
+  justify-content: left;
+  text-align: left;
   margin-top: 20%;
   
+  width: 50%;
+  padding: 10px;
   
+}
+.me {
+  list-style: none;
+  
+  list-style-type:armenian;
+  margin: 0;
+  padding: 0;
+  
+  float:left; 
+  
+  
+ 
+  
+  /* text-decoration: none */
+  /* flex: auto;
+  flex-direction:column-reverse;
+  display: inline;
+  list-style-type: none;
+  text-align: left;
+  justify-content: left; */
+}
+.me li{
+  display: inline-block;
+margin-right: 25px;
+font-size: large;
+color: rgba(0, 72, 255, 0.951);;
+}
+.objective{
+
 }
 .ul{
    /* Fixed position to keep it in place */
@@ -41,13 +72,11 @@ font-size: large;
 
 .name1 {
   
- align-items: center;
- text-align: center;
-  font-size: xx-large;
-  font-family: verdana;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+ 
+
+  font-size: xxx-large;
+  font-family:sans-serif;
+  
   
   
 }
@@ -77,4 +106,52 @@ font-size: large;
 
 .navbar a:hover {
   color: gr; /* Link text color on hover */
+}
+
+.projects{
+  text-align: center;
+  font-family:sans-serif;
+  padding: 65px;
+}
+.projects h1{
+  font-size: xx-large;
+  position: fixed;
+  top: 2%;
+  left: 50%;
+  text-decoration:underline;
+}
+.project1{
+  border-style: solid;
+  border-width: 5px;
+  position: fixed; /* Fixed position to keep it in place */
+  left:20%; /* Position on the left side */
+  top: 20%; /* Position at the top */
+  width: 24%; /* Adjust the width as needed */
+  height: 44%; /* Full height of the viewport */
+  
+}
+.project1 h2{
+  position: fixed; /* Fixed position to keep it in place */
+  left:22%; /* Position on the left side */
+  top: 22%; /* Position at the top */
+  width: 400px; /* Adjust the width as needed */
+  height: 40vh; /* Full height of the viewport */
+  color:
+}
+.groupProject{
+  
+  position: fixed; /* Fixed position to keep it in place */
+  left:28%; /* Position on the left side */
+  top: 27%; /* Position at the top */
+  color: ;
+ 
+}
+.groupProjectList{
+  
+  position: fixed; /* Fixed position to keep it in place */
+  left:20%; /* Position on the left side */
+  top: 33%; /* Position at the top */
+  width: 300px; /* Adjust the width as needed */
+  
+ 
 }

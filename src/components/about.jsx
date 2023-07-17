@@ -1,25 +1,34 @@
 import React from "react";
 
-export default function about(image) {
+export default function About() {
 return (
     <>
- <div class="navbar">
+ {/* <div class="navbar">
    
   <ul>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Education</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/education">Education</a></li>
     
-    <li><a href="#">Contact</a></li>
+    <li><a href="/contact">Contact</a></li>
   </ul>
-</div>
+</div> */}
 <div className="name">
-    <h2 className="name1">Geoffrey Meier</h2>
-<ul className="ul">
+    <h1 className="name1">Geoffrey Meier</h1>
+<div >
+    <ul className="me">
+    <li>St. Louis, Missouri</li> 
+    
     <li>636-728-8409</li>
-    <li>grm0809@gmail.com</li> 
-    <li><a href="https://github.com/GeoffMeier">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/geoffrey-meier-47395a273/">LinkedIn</a></li>
-</ul>
+    <li>grm0809@gmail.com</li>
+    
+    {/* <li><a href="https://github.com/GeoffMeier">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/geoffrey-meier-47395a273/">LinkedIn</a></li> */}
+    
+    
+
+    </ul>
+
+</div>
 </div>
     </>
 )
