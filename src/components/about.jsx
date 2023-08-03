@@ -28,7 +28,7 @@ return (
 {/* </div> */}
 
   <section className="">
-  <div className=" pt-6 flex flex-nowrap flex-col  max-w-2xl  mx-auto ">
+  <div className=" pt-8 flex flex-nowrap flex-col  max-w-2xl  mx-auto ">
   {/* <div class=" flex flex-nowrap flex-col  max-w-2xl  mx-auto  items-baseline "> */}
   <h1 className=" pt-5 pl-0 text-6xl tracking-tighter font-extrabold">GEOFFREY <span className="text-blue-500">MEIER</span>  </h1>
   <div className="pt-2"> 
@@ -43,9 +43,9 @@ return (
   
     </div>
     <div className=" flex flex-row item-center">
-      <div className=" pt-4 pl-0"><a className="  text-5xl" href="https://github.com/GeoffMeier"><SiGithub/> </a></div>
-     <div className="pl-8 pt-4"><a className="   text-5xl" href="https://www.linkedin.com/in/geoffrey-meier-47395a273/"><SiLinkedin/></a></div>
-     <div className="pl-8 pt-4"><a className="   text-5xl" href="mailto: grm0809@gmail.com"><SiGmail/></a></div>
+      <div className=" pt-6 pl-0"><a className="  text-5xl" href="https://github.com/GeoffMeier"><SiGithub/> </a></div>
+     <div className="pl-8 pt-6"><a className="   text-5xl" href="https://www.linkedin.com/in/geoffrey-meier-47395a273/"><SiLinkedin/></a></div>
+     <div className="pl-8 pt-6"><a className="   text-5xl" href="mailto: grm0809@gmail.com"><SiGmail/></a></div>
     </div>
 
   {/* <p className="pt-2 font-serif"> </p>
@@ -54,7 +54,8 @@ return (
     <span className=" pt-3 text-xl">- St. Louis Community College, Associate in Arts - May 2022</span>
      */}
   {/* </div> */}
-  <p className="pt-10 font-light text-xl">My objective is to bring my newly acquired skills and passion for software development to a team.  I want to build off what I've learned and develop secure and intuitive programs, software, and web-based applications.  I have ambitions to become a Full Stack Developer  and to further my skills by continuing to learn on my own and through my peers. </p>
+  <h2 className="pt-12 font-bold text-2xl underline-offset-2 underline">OBJECTIVE:</h2>
+  <p className="pt-3 font-light text-xl tracking-wider">To bring my newly acquired skills and passion for software development to a team.  I want to build off what I've learned and develop secure and intuitive programs, software, and web-based applications.  I have ambitions to become a Full Stack Developer  and to further my skills by continuing to learn on my own and through my peers. </p>
   </div>
   </section>
  
