@@ -6,7 +6,7 @@ import Navbar from '../components/navbar'
 function AboutPage() {
   return (
     <div>
-        <Navbar/>
+        
         <About/>
 
     </div>
