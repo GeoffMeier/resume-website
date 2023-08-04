@@ -1,120 +1,191 @@
+
 import React from "react";
-import {BiLogoJava} from 'react-icons/bi'
-import {BiLogoJavascript} from 'react-icons/bi'
-import {BiLogoReact} from 'react-icons/bi'
-import {BiLogoHtml5} from 'react-icons/bi'
-import {BiLogoCss3} from 'react-icons/bi'
-import {BiLogoAngular} from 'react-icons/bi'
-import {BiLogoNodejs} from 'react-icons/bi'
-import {BiLogoSpringBoot} from 'react-icons/bi'
+
 export default function Projects() {
 return (
     <>
-    {/* <div className="pt-6 flex flex-nowrap flex-col  max-w-2xl  mx-auto "> */}
-    <div className="pt-6 grid grid-cols-2  divide-x-2 outline-blue-500">
- <div className="">
+    
+        <div className="grid grid-cols-3 pt-4 pl-4 pr-4">
+            <div className="col-span-2 text-center">
+                <h2 className="text-center pt-2  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8">Individual Projects</h2>
+            {/* <div className="grid grid-cols-2 ">
+               <div className="cols-start-1 "> <h3 className="  text-center text-2xl py-4 font-bold">Candidate Testing  <span className="pl-2 pr-2">~</span><span className="italic  font-bold text-blue-500">JavaScript</span> </h3>
+                 <ul className="text-left pl-4 text-xl tracking-wider">
+                        <li className="py-1"><span className="text-blue-500 font-extrabold">- </span>Iterated over questions to display one question at a time and stored candidate’s answers</li>
+                        <li className="py-1"><span className="text-blue-500 font-extrabold">- </span> Checked each answer for accuracy (case insensitive equality check)</li>
+                        <li className="py-1"><span className="text-blue-500 font-extrabold">- </span> Calculated the candidate's overall grade percentage to ensure they passed with a 80% or higher</li>
+                        <li className="py-1"><span className="text-blue-500 font-extrabold">- </span> Displayed the results</li>
+                        
+                    </ul>  
+                    </div>
+            </div> */}
+            
+                  </div>
+                  <div className="col-span-1 text-center  "> 
+                  <h2 className="text-center pt-2  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8">Liftoff Group Project</h2>
+                  </div>
+</div>
+            <div className=" grid grid-cols-3 pt-0 pl-4 pr-4 ">
+  <div className="col-span-1 text-center border-b-4 border-neutral-800 ">
+    <div className=" border-neutral-800 p-4">
+      <h3 className="text-center text-2xl pb-4 font-bold">
+      Launch Checklist Form 
+        <span className="pl-2 pr-2">~</span>
+        <span className="italic font-bold text-blue-500">JavaScript</span>
+      </h3>
+      <ul className="text-left pl-4 pt-2 text-xl tracking-wider pb-16">
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Validated that the user submitted data correctly for each field 
 
- <h2 className=" text-center py-4  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8 ">Education </h2>
-   <div className="text-center "> <span className=" text-xl tracking-wide">- LaunchCode, LC101 Programming Course - June 2023</span></div>
-  <div className="text-center pl-9 py-4">  <span className=" text-xl tracking-wide">- St. Louis Community College, Associate in Arts - May 2022</span></div>
-
-  <div className=" text-center py-4  pt-10 font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8 ">Skills</div>
-   <div className="text-center text-xl text-blue-500 font-bold tracking-wider"> <span className="italic">Programming Languages & tools</span></div>
-   <div className=" text-xl pt-1 text-center tracking-wide"> - <span className="italic">Java</span> </div>
-   <div className=" text-xl pt-1 text-center tracking-wide"> - <span className="italic">JavaScript</span></div>
-   <div className=" text-xl text-center tracking-wide"> - <span className="italic">React</span></div>
-   <div className=" text-xl text-center pt-1 tracking-wide"> - <span className="italic">Spring</span></div>
-   <div className=" text-xl text-center pt-1 tracking-wide"> - <span className="italic">Angular</span></div>
-   <div className=" text-xl text-center pt-1 tracking-wide"> - <span className="italic">Node</span></div>
-   <div className=" text-xl text-center pt-1 tracking-wide"> - <span className="italic">CSS</span></div>
-   <div className=" text-xl text-center pt-1 tracking-wide"> - <span className="italic">HTML</span></div>
-    {/* <ul className="text-center py-2">
-    <li>Iterated over questions to display one question at a time and stored candidate’s answers
-</li>
-    </ul> */}
-    <div className="pt-8 flex flex-row item-center text-center">
-    <div className=" pt-4  pl-44 item-center text-center"><a className="  text-5xl" href="https://www.java.com/en/"><BiLogoJava/> </a></div>
-     <div className="pl-8 pt-4"><a className=" text-5xl" href="https://www.javascript.com/"><BiLogoJavascript/></a></div>
-     <div className="pl-8 pt-4"><a className="   text-5xl" href="https://react.dev/"><BiLogoReact/></a></div>
-     <div className="pl-8 pt-4"><a className="   text-5xl" href="https://spring.io/"><BiLogoSpringBoot/></a></div>
-     <div className="pl-8 pt-4"><a className="   text-5xl" href="https://angular.io/"><BiLogoAngular/></a></div>
-     <div className="pl-8 pt-4"><a className="   text-5xl" href="https://nodejs.org/en"><BiLogoNodejs/></a></div>
-     <div className="pl-8 pt-4"><a className="   text-5xl" href="https://css.com/"><BiLogoCss3/></a></div>
-     <div className="pl-8 pt-4"><a className="   text-5xl" href="https://html.com/"><BiLogoHtml5/></a></div>
- 
- </div>
- 
- 
-   
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          After validation, updated a list of what was currently ready and what was not ready to launch
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Indicated what was correct and incorrect using the DOM to update the CSS
+        </li>
+        
+      </ul>
     </div>
-    <div className="col-start-2">
-    <h2 className=" text-center py-4  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8">Independent Learning</h2>
-    <div className=" text-center">
-    <span className="text-xl font-bold text-blue-500  tracking-wider">Java Programming Masterclass</span>
   </div>
-  <div className="text-center ">
-    <span className="text-xl tracking-wide"> Instructor: Tim Buchalka || 47 hours  </span>
-  </div>
-  <div className=" pt-6 text-center">
-    <span className="text-xl italic tracking-tight font-bold">Topics covered: </span>
-  </div>
- <ul className="pt-4 text-center grid grid-cols-2 tracking-wider">
-    <li className="pt-2 text-lg">- Key words and expressions
-</li>
-    <li className="pt-2 text-lg">- Conditional statements and loops</li>
-    <li className="pt-2 text-lg">- Four pillars of OOP</li>
-    <li className="pt-2 text-lg">- Java collections</li>
-    <li className="pt-2 text-lg">- Debugging and unit testing</li>
-    <li className="pt-2 pb-8 text-lg ">- Stream and Databases</li>
+  <div className="col-start-2 border-r-4  border-l-4 border-b-4 border-neutral-800 ">
+      <h3 className="text-center text-2xl pt-2 font-bold">
+        Orbit Report
+        <span className="pl-2 pr-2">~</span>
+        <span className="italic font-bold text-blue-500">JavaScript</span>
+      </h3>
+      <ul className="text-left pl-4 pt-2 text-xl tracking-wider">
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Added an Angular component tag in the apps HTML to display a table
 
- </ul>
- {/* <div className="  border-b"></div> */}
- <div className="pt-8  text-center">
-    <span className="text-xl font-bold text-blue-500  tracking-wider">Beginner JavaScript</span>
-  </div>
-  <div className="text-center  ">
-    <span className="text-xl tracking-wide"> Instructor: Wes Bos || 28 hours  </span>
-  </div>
-  <div className=" text-center pt-6">
-    <span className="text-xl italic tracking-tight font-bold">Topics covered: </span>
-  </div>
- <ul className="py-4 text-center grid grid-cols-2 tracking-wider">
-    <li className="pt-1 text-lg">- Events
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Iterated over objects and displayed their information in a new table
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Iterated over a specific column and highlighted any instances of  “space debris”
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Iterated over each object in the table to display a total number of objects
 
-</li>
-    <li className="pt-2 text-lg">- Keywords and expressions</li>
-    <li className="pt-2 text-lg">- Logic and flow control</li>
-    <li className="pt-2 text-lg">- Fetching data from an  API</li>
-    <li className="pt-2 text-lg">- Conditional Statements and loops</li>
-    <li className="pt-2 text-lg">- Structuring larger applications
-</li>
+        </li>
+        
+      </ul>
+    </div>
+    <div className="col-start-3 p-0  ">
+      <h3 className="text-center text-2xl pt-2 font-bold">
+      Movie Application 
+        <span className="pl-2 pr-2">~</span>
+        <span className="italic font-bold text-blue-500">React, Spring Boot, & MySQL</span>
+      </h3>
+      <ul className="text-left pt-2 pl-4 text-xl tracking-wider">
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Utilized public movie DB API to pull in movie data
 
- </ul>
-  
-  
- {/* <div className="text-center pt-6">
-    <span className="text-xl text-blue-500 font-bold font-bold tracking-wider">Beginner JavaScript</span>
- </div>
- <div className="text-center ">
-    <span className="text-xl tracking-wide">- Instructor: Wes Bos </span>
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Allowed users to search and browse movies by title, cast, and genre
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Displayed movies in card views with pagination 
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Provided content about each movie with a simple click on the movie card
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Allowed users to sign in and add movies to their cart
+
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Cart allowed checkout through the use of the Stripe API 
+
+
+        </li>
+        
+      </ul>
+    </div>
+</div>
+
+<div className=" grid grid-cols-3  pl-4 pr-4">
+  <div className="col-span-1 text-center">
+    <div className="col-start-1  border-neutral-800  p-4">
+      <h3 className="text-center text-2xl pb-0 font-bold">
+        Tech Jobs (mvc)
+        <span className="pl-2 pr-2">~</span>
+        <span className="italic font-bold text-blue-500">Java</span>
+      </h3>
+      <ul className="text-left pt-2 pl-4 text-xl tracking-wider">
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Used a loop to display job results in a table
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Added a table to view jobs by category
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Created a handler to process a search request and render the data in the updated search view
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Created a handler to loop over the search results and display all job fields
+
+
+        </li>
+        
+      </ul>
+    </div>
   </div>
-  <div className="text-center ">
-    <span className="text-xl italic tracking-wide">- 28 hours </span>
-  </div> */}
-  {/* <div className="text-center pt-6">
-    <span className="text-xl text-blue-500  font-bold tracking-wider">Web Developer Bootcamp</span>
- </div>
- <div className="text-center ">
-    <span className="text-xl tracking-wide">- Instructor: Colt Steele  </span>
-  </div>
-  <div className="text-center ">
-    <span className="text-xl italic tracking-wide">- 64 hours </span>
-  </div> */}
- </div>
- 
-     
-  </div>
-    </>
+  <div className="col-start-2  p-4  border-l-4 border-r-4 border-neutral-800">
+      <h3 className="text-center text-2xl pb-0 font-bold">
+        Tech Jobs (persistent)
+        <span className="pl-2 pr-2">~</span>
+        <span className="italic font-bold text-blue-500">Java</span>
+      </h3>
+      <ul className="text-left pt-2 pl-4 text-xl tracking-wider">
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Connected MySQL database to a spring application
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Created an Abstract class for extending classes with similar fields
+
+        </li>
+        <li className="py-1">
+          <span className="text-blue-500 font-extrabold">- </span>
+          Created a CrudRepository interface for each class to add, delete, and view data in the controller using get and post requests
+
+        </li>
+        
+      </ul>
+    </div>
+</div>
+            
+      
+    
+</>
 )
-
 }

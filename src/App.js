@@ -4,7 +4,9 @@ import { Link, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
+import EducationPage from "./pages/EducationPage";
 import ProjectsPage from "./pages/ProjectsPage";
+import ReferencesPage from "./pages/ReferencesPage";
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/education" element={<ProjectsPage />} />
+        <Route path="/education" element={<EducationPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/references" element={<ReferencesPage />} />
         
       </Routes>
     </div>
