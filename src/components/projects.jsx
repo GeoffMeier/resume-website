@@ -7,7 +7,7 @@ return (
     
         <div className="grid grid-cols-3 pt-4 pl-4 pr-4">
             <div className="col-span-2 text-center">
-                <h2 className="text-center pt-2  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8">Individual Projects</h2>
+                <h2 className="text-center py-2 pb-10  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8">Individual Projects</h2>
             {/* <div className="grid grid-cols-2 ">
                <div className="cols-start-1 "> <h3 className="  text-center text-2xl py-4 font-bold">Candidate Testing  <span className="pl-2 pr-2">~</span><span className="italic  font-bold text-blue-500">JavaScript</span> </h3>
                  <ul className="text-left pl-4 text-xl tracking-wider">
@@ -22,7 +22,7 @@ return (
             
                   </div>
                   <div className="col-span-1 text-center  "> 
-                  <h2 className="text-center pt-2  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8">Liftoff Group Project</h2>
+                  <h2 className="text-center py-2  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8">Liftoff Group Project</h2>
                   </div>
 </div>
             <div className=" grid grid-cols-3 pt-0 pl-4 pr-4 ">

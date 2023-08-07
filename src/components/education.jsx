@@ -33,7 +33,7 @@ return (
 </li>
     </ul> */}
     <div className="pt-8 flex flex-row item-center text-center">
-    <div className=" pt-4  pl-8 item-center text-center"><a className="  text-5xl" href="https://www.java.com/en/"><BiLogoJava/> </a></div>
+    <div className=" pt-4  pl-28 item-center text-center"><a className="  text-5xl" href="https://www.java.com/en/"><BiLogoJava/> </a></div>
      <div className="pl-8 pt-4"><a className=" text-5xl" href="https://www.javascript.com/"><BiLogoJavascript/></a></div>
      <div className="pl-8 pt-4"><a className="   text-5xl" href="https://react.dev/"><BiLogoReact/></a></div>
      <div className="pl-8 pt-4"><a className="   text-5xl" href="https://spring.io/"><BiLogoSpringBoot/></a></div>
@@ -58,7 +58,7 @@ return (
   <div className=" pt-6 text-center">
     <span className="text-xl italic tracking-tight font-bold">Topics covered: </span>
   </div>
- <ul className="pt-4 text-center grid grid-cols-2 tracking-wider">
+ <ul className="pt-4 text-center grid grid-cols-2 tracking-wider ">
     <li className="pt-2 text-lg">- Key words and expressions
 </li>
     <li className="pt-2 text-lg">- Conditional statements and loops</li>
