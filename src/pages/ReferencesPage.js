@@ -1,16 +1,15 @@
-import React from 'react'
-import References from '../components/references'
+import React from "react";
+import References from "../components/references";
 
-import Navbar from '../components/navbar'
+import Navbar from "../components/navbar";
 
 function ReferencesPage() {
   return (
     <div>
-        <Navbar/>
-        <References/>
-
+      <Navbar />
+      <References />
     </div>
-  )
+  );
 }
 
-export default ReferencesPage
+export default ReferencesPage;

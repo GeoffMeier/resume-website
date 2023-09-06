@@ -4,7 +4,12 @@
   top: 0; /* Position at the top */
   width: 300px; /* Adjust the width as needed */
   height: 100vh; /* Full height of the viewport */
-  background-color: rgba(0, 72, 255, 0.951); /* Background color of the navbar */
+  background-color: rgba(
+    0,
+    72,
+    255,
+    0.951
+  ); /* Background color of the navbar */
   color: #fff; /* Text color */
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Arrange items vertically */
@@ -12,7 +17,6 @@
   justify-content: center; /* Center items vertically */
 }
 .name {
-
   margin: auto;
   width: 50%;
 
@@ -20,23 +24,19 @@
   justify-content: left;
   text-align: left;
   margin-top: 20%;
-  
+
   width: 50%;
   padding: 10px;
-  
 }
 .me {
   list-style: none;
-  
-  list-style-type:armenian;
+
+  list-style-type: armenian;
   margin: 0;
   padding: 0;
-  
-  float:left; 
-  
-  
- 
-  
+
+  float: left;
+
   /* text-decoration: none */
   /* flex: auto;
   flex-direction:column-reverse;
@@ -45,45 +45,36 @@
   text-align: left;
   justify-content: left; */
 }
-.me li{
+.me li {
   display: inline-block;
-margin-right: 25px;
-font-size: large;
-color: rgba(0, 72, 255, 0.951);;
+  margin-right: 25px;
+  font-size: large;
+  color: rgba(0, 72, 255, 0.951);
 }
-.objective{
-
+.objective {
 }
-.ul{
-   /* Fixed position to keep it in place */
-   /* Position on the left side */
-   /* Position at the top */
+.ul {
+  /* Fixed position to keep it in place */
+  /* Position on the left side */
+  /* Position at the top */
   /* Full height of the viewport */
-   /* Background color of the navbar */
+  /* Background color of the navbar */
   /* Text color */
   list-style-type: none;
-font-size: large;
-  
+  font-size: large;
 }
-.objective{
+.objective {
   font-size: medium;
   text-align: left;
 }
 
 .name1 {
-  
- 
-
   font-size: xxx-large;
-  font-family:sans-serif;
-  
-  
-  
+  font-family: sans-serif;
 }
-.navbar h2{
+.navbar h2 {
   justify-content: center;
   text-align: center;
-  
 }
 
 .navbar ul {
@@ -91,8 +82,8 @@ font-size: large;
   list-style-type: none; /* Remove the default list styles */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margin */
-  font-size:x-large;
-  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .navbar li {
@@ -108,50 +99,44 @@ font-size: large;
   color: gr; /* Link text color on hover */
 }
 
-.projects{
+.projects {
   text-align: center;
-  font-family:sans-serif;
+  font-family: sans-serif;
   padding: 65px;
 }
-.projects h1{
+.projects h1 {
   font-size: xx-large;
   position: fixed;
   top: 2%;
   left: 50%;
-  text-decoration:underline;
+  text-decoration: underline;
 }
-.project1{
+.project1 {
   border-style: solid;
   border-width: 5px;
   position: fixed; /* Fixed position to keep it in place */
-  left:20%; /* Position on the left side */
+  left: 20%; /* Position on the left side */
   top: 20%; /* Position at the top */
   width: 24%; /* Adjust the width as needed */
   height: 44%; /* Full height of the viewport */
-  
 }
-.project1 h2{
+.project1 h2 {
   position: fixed; /* Fixed position to keep it in place */
-  left:22%; /* Position on the left side */
+  left: 22%; /* Position on the left side */
   top: 22%; /* Position at the top */
   width: 400px; /* Adjust the width as needed */
   height: 40vh; /* Full height of the viewport */
-  color:
+  color:;
 }
-.groupProject{
-  
+.groupProject {
   position: fixed; /* Fixed position to keep it in place */
-  left:28%; /* Position on the left side */
+  left: 28%; /* Position on the left side */
   top: 27%; /* Position at the top */
-  color: ;
- 
+  color:;
 }
-.groupProjectList{
-  
+.groupProjectList {
   position: fixed; /* Fixed position to keep it in place */
-  left:20%; /* Position on the left side */
+  left: 20%; /* Position on the left side */
   top: 33%; /* Position at the top */
   width: 300px; /* Adjust the width as needed */
-  
- 
 }

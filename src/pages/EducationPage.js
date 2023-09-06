@@ -1,16 +1,15 @@
-import React from 'react'
-import Education from '../components/education'
+import React from "react";
+import Education from "../components/education";
 
-import Navbar from '../components/navbar'
+import Navbar from "../components/navbar";
 
 function ProjectsPage() {
   return (
     <div>
-        <Navbar/>
-        <Education/>
-
+      <Navbar />
+      <Education />
     </div>
-  )
+  );
 }
 
-export default ProjectsPage
+export default ProjectsPage;
