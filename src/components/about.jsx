@@ -5,6 +5,8 @@ import { Link, Route, Routes } from "react-router-dom";
 import { SiGithub } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
+import { Separator } from "./ui/separator";
+import { Section, SectionTitle, SectionBody } from "./section";
 export default function About() {
 	return (
 		<>
@@ -64,14 +66,19 @@ export default function About() {
 							<SiGmail />
 						</a>
 					</div>
-
-					{/* <p className="pt-2 font-serif"> </p>
-    <h2 className="  pt-10  font-sans text-3xl  tracking-wider underline  underline-offset-4">Education </h2>
-    <span className=" pt-5 text-xl">- LaunchCode, LC101 Programming Course - June 2023</span>
-    <span className=" pt-3 text-xl">- St. Louis Community College, Associate in Arts - May 2022</span>
-     */}
-					{/* </div> */}
-					<h2 className="pt-12 font-bold text-2xl underline-offset-2 underline">
+					<Separator className="mt-4 " />
+					<Section>
+						<SectionTitle>OBJECTIVE:</SectionTitle>
+						<SectionBody>
+							To bring my newly acquired skills and passion for software
+							development to a team. I want to build off what I've learned and
+							develop secure and intuitive programs, software, and web-based
+							applications. I have ambitions to become a Full Stack Developer
+							and to further my skills by continuing to learn on my own and
+							through my peers.
+						</SectionBody>
+					</Section>
+					{/* <h2 className="pt-12 font-bold text-2xl underline-offset-2 underline">
 						OBJECTIVE:
 					</h2>
 					<p className="pt-3 font-light text-xl tracking-wider">
@@ -81,7 +88,7 @@ export default function About() {
 						applications. I have ambitions to become a Full Stack Developer and
 						to further my skills by continuing to learn on my own and through my
 						peers.{" "}
-					</p>
+					</p> */}
 				</div>
 			</section>
 		</>
