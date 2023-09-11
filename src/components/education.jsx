@@ -30,57 +30,49 @@ export default function Education() {
 			<Section>
 				<SectionTitle>Skills</SectionTitle>
 				<SectionSubTitle>Programming Languages & tools</SectionSubTitle>
-				<SectionBody>
+				<SectionBody className="flex-row flex-wrap gap-2 justify-center">
 					<SectionIconLink
 						icon={<BiLogoJava />}
 						label="Java"
 						href="https://www.java.com/en/"
 					/>
+					<SectionIconLink
+						icon={<BiLogoJavascript />}
+						label="JavaScript"
+						href="https://www.javascript.com/"
+					></SectionIconLink>
+					<SectionIconLink
+						icon={<BiLogoReact />}
+						label="React"
+						href="https://react.dev/"
+					></SectionIconLink>
+					<SectionIconLink
+						icon={<BiLogoSpringBoot />}
+						label="Spring Boot"
+						href="https://spring.io/"
+					></SectionIconLink>
+					<SectionIconLink
+						icon={<BiLogoAngular />}
+						label="Angular"
+						href="https://angular.io/"
+					></SectionIconLink>
+					<SectionIconLink
+						icon={<BiLogoNodejs />}
+						label="NodeJS"
+						href="https://nodejs.org/en"
+					></SectionIconLink>
+					<SectionIconLink
+						icon={<BiLogoCss3 />}
+						label="CSS"
+						href="https://css.com/"
+					></SectionIconLink>
+					<SectionIconLink
+						icon={<BiLogoHtml5 />}
+						label="HTML"
+						href="https://html.com/"
+					></SectionIconLink>
 				</SectionBody>
 			</Section>
-
-			{/* <ul className="text-center py-2">
-    <li>Iterated over questions to display one question at a time and stored candidate’s answers
-</li>
-    </ul> */}
-			<div className="pt-8 flex flex-row item-center text-center">
-				<div className=" pt-4  pl-28 item-center text-center"></div>
-				<SectionIconLink
-					icon={<BiLogoJavascript />}
-					label=""
-					href="https://www.javascript.com/"
-				></SectionIconLink>
-				<SectionIconLink
-					icon={<BiLogoReact />}
-					label=""
-					href="https://react.dev/"
-				></SectionIconLink>
-				<SectionIconLink
-					icon={<BiLogoSpringBoot />}
-					label=""
-					href="https://spring.io/"
-				></SectionIconLink>
-				<SectionIconLink
-					icon={<BiLogoAngular />}
-					label=""
-					href="https://angular.io/"
-				></SectionIconLink>
-				<SectionIconLink
-					icon={<BiLogoNodejs />}
-					label=""
-					href="https://nodejs.org/en"
-				></SectionIconLink>
-				<SectionIconLink
-					icon={<BiLogoCss3 />}
-					label=""
-					href="https://css.com/"
-				></SectionIconLink>
-				<SectionIconLink
-					icon={<BiLogoHtml5 />}
-					label=""
-					href="https://html.com/"
-				></SectionIconLink>
-			</div>
 
 			<div className="col-start-2">
 				<h2 className=" text-center py-4  font-sans font-bold  decoration-neutral-800 text-3xl  tracking-widest underline   underline-offset-8">

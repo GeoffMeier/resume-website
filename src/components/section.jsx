@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { Separator } from "./ui/separator";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
@@ -23,7 +24,7 @@ export function SectionSubTitle(props) {
 }
 
 export function SectionBody(props) {
-	return <div>{props.children}</div>;
+	return <div className={cn("flex ", props.className)}>{props.children}</div>;
 }
 
 export function SectionIconLink(props) {
