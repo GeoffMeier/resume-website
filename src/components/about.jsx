@@ -6,6 +6,7 @@ import { SiGithub } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
 import { Separator } from "./ui/separator";
+import { Section, SectionTitle, SectionBody } from "./section";
 export default function About() {
 	return (
 		<>
@@ -65,9 +66,19 @@ export default function About() {
 							<SiGmail />
 						</a>
 					</div>
-					<Separator />
-
-					<h2 className="pt-12 font-bold text-2xl underline-offset-2 underline">
+					<Separator className="mt-4 " />
+					<Section>
+						<SectionTitle>OBJECTIVE:</SectionTitle>
+						<SectionBody>
+							To bring my newly acquired skills and passion for software
+							development to a team. I want to build off what I've learned and
+							develop secure and intuitive programs, software, and web-based
+							applications. I have ambitions to become a Full Stack Developer
+							and to further my skills by continuing to learn on my own and
+							through my peers.
+						</SectionBody>
+					</Section>
+					{/* <h2 className="pt-12 font-bold text-2xl underline-offset-2 underline">
 						OBJECTIVE:
 					</h2>
 					<p className="pt-3 font-light text-xl tracking-wider">
@@ -77,7 +88,7 @@ export default function About() {
 						applications. I have ambitions to become a Full Stack Developer and
 						to further my skills by continuing to learn on my own and through my
 						peers.{" "}
-					</p>
+					</p> */}
 				</div>
 			</section>
 		</>
