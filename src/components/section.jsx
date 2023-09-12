@@ -1,21 +1,31 @@
 import { cn } from "@/lib/utils";
 import { Separator } from "./ui/separator";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "./ui/hover-card";
 
 export function Section(props) {
 	return (
-		<div className="flex flex-col gap-2 md:gap-4 text-center ">
-			{props.children}
+		<>
+			<div className={cn("flex flex-col gap-2 md:gap-4  ", props.className)}>
+				{props.children}
+			</div>
 			<Separator />
-		</div>
+		</>
 	);
 }
 
 export function SectionTitle(props) {
 	return (
-		<h3 className="font-bold text-2xl underline underline-offset-2">
+		<h3 className="font-bold text-3xl  tracking-wide uppercase font-sans  pl-0 ">
 			{props.children}
 		</h3>
+	);
+}
+export function SubSection(props) {
+	return (
+		<div className={cn("flex flex-col gap-2 md:gap-4  ", props.className)}>
+			{props.children}
+		</div>
 	);
 }
 
@@ -25,6 +35,15 @@ export function SectionSubTitle(props) {
 
 export function SectionBody(props) {
 	return <div className={cn("flex ", props.className)}>{props.children}</div>;
+}
+
+export function SectionList(props) {
+	return (
+		<ul className={cn("list-disc pl-4", props.className)}>{props.children}</ul>
+	);
+}
+export function SectionListItem(props) {
+	return <li className={cn(" ", props.className)}>{props.children}</li>;
 }
 
 export function SectionIconLink(props) {
@@ -37,5 +56,28 @@ export function SectionIconLink(props) {
 			</TooltipTrigger>
 			<TooltipContent>{props.label}</TooltipContent>
 		</Tooltip>
+	);
+}
+
+export function SectionHoverCard(props) {
+	return (
+		<HoverCard>
+			<HoverCardTrigger
+				className="cursor-pointer flex flex-row h-12 items-stretch pl-0"
+				asChild
+			>
+				<a href={props.href} target="_blank">
+					{props.icon}
+					{props.children}
+				</a>
+			</HoverCardTrigger>
+
+			<HoverCardContent
+				className={cn("  flex", props.contentClassName)}
+				side="top"
+			>
+				<img src={props.openGraph} />
+			</HoverCardContent>
+		</HoverCard>
 	);
 }

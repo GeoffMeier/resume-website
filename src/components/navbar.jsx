@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
 	return (
 		<>
-			<header className="w-screen py-0 bg-neutral-800">
+			<header className="w-screen py-0 bg-neutral-800 sticky top-0">
 				<div className="max-w-xl mx-auto w-full flex md:items-center justify-center gap-4 md:text-center">
 					<div className=" md:w-3/12 px-0 flex   py-0">
 						<img
