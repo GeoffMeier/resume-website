@@ -19,25 +19,25 @@ export default function Navbar() {
 					<nav className="flex flex-col md:flex-row md:w-10/12 justify-center items-start order-last md:order-none my-4 md:my-0  ">
 						<a
 							className="relative text-lg tracking-tight text-zinc-200 border-b border-transparent hover:text-blue-500 sm:ml-44 sm:mr-10 sm:mt-2 max-w-max before:-bottom-0 before:absolute before:w-full before:bg-blue-500 before:h-px "
-							href="/"
+							href="#about"
 						>
 							About
 						</a>
 						<a
 							className="relative text-lg tracking-tight text-zinc-200 border-b border-transparent hover:text-blue-500 sm:ml-10 sm:mr-10 sm:mt-2 max-w-max before:-bottom-0 before:absolute before:w-full before:bg-blue-500 before:h-px"
-							href="/education"
+							href="#education"
 						>
 							Education
 						</a>
 						<a
 							className="relative text-lg tracking-tight text-zinc-200 border-b border-transparent hover:text-blue-500 sm:ml-10 sm:mr-10 sm:mt-2 max-w-max before:-bottom-0 before:absolute before:w-full before:bg-blue-500 before:h-px"
-							href="/projects"
+							href="#projects"
 						>
 							Projects
 						</a>
 						<a
 							className="relative text-lg tracking-tight text-zinc-200 border-b border-transparent hover:text-blue-500 sm:ml-10 sm:mr-10 sm:mt-2 max-w-max before:-bottom-0 before:absolute before:w-full before:bg-blue-500 before:h-px"
-							href="/references"
+							href="#references"
 						>
 							References
 						</a>

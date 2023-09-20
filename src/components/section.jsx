@@ -6,17 +6,27 @@ import { HoverCard, HoverCardContent, HoverCardTrigger } from "./ui/hover-card";
 export function Section(props) {
 	return (
 		<>
-			<div className={cn("flex flex-col gap-2 md:gap-4  ", props.className)}>
+			<div
+				className={cn(
+					"flex flex-col gap-2 md:gap-4 px-4 md:px-0 ",
+					props.className
+				)}
+			>
 				{props.children}
 			</div>
-			<Separator />
+			{!props.noSeparator && <Separator />}
 		</>
 	);
 }
 
 export function SectionTitle(props) {
 	return (
-		<h3 className="font-bold text-3xl  tracking-wide uppercase font-sans  pl-0 ">
+		<h3
+			className={cn(
+				"font-bold text-3xl  tracking-wide uppercase font-sans  pl-0 ",
+				props.className
+			)}
+		>
 			{props.children}
 		</h3>
 	);
