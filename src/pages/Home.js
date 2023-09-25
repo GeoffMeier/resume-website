@@ -6,9 +6,9 @@ import Projects from "@/components/projects";
 import References from "@/components/references";
 function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center">
+		<div className="flex flex-col items-center justify-center ">
 			<Navbar />
-			<div className="flex gap-4 first:gap-0 flex-col max-w-2xl">
+			<div className="flex gap-28 first:gap-0 flex-col max-w-2xl">
 				<About />
 				<Education />
 				<Projects />

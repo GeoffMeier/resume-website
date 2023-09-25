@@ -55,9 +55,9 @@ export default function About() {
 							<SiGmail />
 						</a>
 					</div>
-					<Separator className="mt-4 " />
-					<Section>
-						<SectionTitle>OBJECTIVE:</SectionTitle>
+
+					<Section className="mt-4">
+						<SectionTitle>OBJECTIVE</SectionTitle>
 						<SectionBody>
 							To bring my newly acquired skills and passion for software
 							development to a team. I want to build off what I've learned and

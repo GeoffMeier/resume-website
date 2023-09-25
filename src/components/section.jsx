@@ -6,15 +6,15 @@ import { HoverCard, HoverCardContent, HoverCardTrigger } from "./ui/hover-card";
 export function Section(props) {
 	return (
 		<>
+			{!props.noSeparator && <Separator className="mt-4" />}
 			<div
 				className={cn(
-					"flex flex-col gap-2 md:gap-4 px-4 md:px-0 ",
+					"flex flex-col gap-2 md:gap-10  px-4 md:px-0 ",
 					props.className
 				)}
 			>
 				{props.children}
 			</div>
-			{!props.noSeparator && <Separator />}
 		</>
 	);
 }

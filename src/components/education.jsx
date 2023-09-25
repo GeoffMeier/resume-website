@@ -99,7 +99,7 @@ export default function Education() {
 	return (
 		<>
 			<section id="education">
-				<Section className="flex-row justify-between  w-full">
+				<Section className="flex-row justify-between  w-full  mt-4">
 					<SubSection className="justify-start items-start ">
 						<SectionTitle>Education</SectionTitle>
 						<SectionList className="list-none pl-1 flex flex-col gap-6">
@@ -133,7 +133,10 @@ export default function Education() {
 					</SubSection>
 				</Section>
 
-				<Section className="flex-row flex-wrap  w-full items-center justify-stretch">
+				<Section
+					className="flex-row flex-wrap  w-full items-center justify-stretch pt-10 "
+					noSeparator
+				>
 					<SectionTitle className="w-full "> Languages</SectionTitle>
 					<SubSection className="flex justify-start w-1/4">
 						<DeveloperIllustration />
@@ -185,7 +188,7 @@ export default function Education() {
 					</SubSection>
 				</Section>
 
-				<Section noSeparator>
+				<Section noSeparator className="pt-10">
 					<SectionTitle>Independent Learning</SectionTitle>
 					<Accordion type="single" collapsible>
 						<AccordionItem value="item-1">
