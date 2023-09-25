@@ -24,7 +24,7 @@ export default function Navbar() {
 							About
 						</a>
 						<a
-							className="relative text-lg tracking-tight text-zinc-200 border-b border-transparent hover:text-blue-500 sm:ml-10 sm:mr-10 sm:mt-2 max-w-max before:-bottom-0 before:absolute before:w-full before:bg-blue-500 before:h-px"
+							className="relative  text-lg tracking-tight text-zinc-200 border-b border-transparent hover:text-blue-500 sm:ml-10 sm:mr-10 sm:mt-2 max-w-max before:-bottom-0 before:absolute before:w-full before:bg-blue-500 before:h-px"
 							href="#education"
 						>
 							Education

@@ -14,7 +14,7 @@ import { Section, SectionTitle } from "./section";
 
 export default function References() {
 	return (
-		<section id="references">
+		<section id="references" className="scroll-mt-40">
 			<Section className="mt-4">
 				<SectionTitle>References</SectionTitle>
 				<div className="grid grid-cols-2 gap-4 ">

@@ -18,7 +18,7 @@ export default function About() {
 
 			{/* </div> */}
 
-			<section id="about" className="">
+			<section id="about" className="scroll-mt-40">
 				<div className=" pt-8 flex flex-nowrap flex-col text-center md:text-left max-w-2xl  mx-auto ">
 					{/* <div class=" flex flex-nowrap flex-col  max-w-2xl  mx-auto  items-baseline "> */}
 					<h1 className=" pt-5 pl-0 text-6xl tracking-tighter font-extrabold">

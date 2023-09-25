@@ -17,7 +17,7 @@ import {
 export default function Projects() {
 	return (
 		<>
-			<section id="projects">
+			<section id="projects" className="scroll-mt-40">
 				<Section className="mt-4">
 					<SectionTitle> Projects</SectionTitle>
 					<Accordion type="single" collapsible>

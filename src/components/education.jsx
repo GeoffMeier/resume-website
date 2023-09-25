@@ -98,7 +98,7 @@ function DegreeInfo(props) {
 export default function Education() {
 	return (
 		<>
-			<section id="education">
+			<section id="education" className=" scroll-mt-40">
 				<Section className="flex-row justify-between  w-full  mt-4">
 					<SubSection className="justify-start items-start ">
 						<SectionTitle>Education</SectionTitle>
